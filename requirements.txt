@@ -1,0 +1,28 @@
+# Required packages for NLP tasks
+transformers
+transformers[sentencepiece]
+datasets
+sacreBLEU
+rouge_score
+py7zr
+pandas
+nltk
+tqdm
+PyYAML
+matplotlib
+torch
+notebook
+boto3
+mypy-boto3-s3
+
+# Specific package versions
+python-box==6.0.2  # A library for working with nested dictionaries in a more concise way
+ensure==1.0.2  # It looks like 'ensure' is not a valid package name; this might be a typo or an error
+
+# Additional packages for web applications
+fastapi==0.78.0  # A library for building fast APIs in Python
+unicorn==2.0.1  # A high-performance HTTP server for Python applications
+jinja2==3.1.2  # A library for templating in Python
+
+# Local install of the current directory as a Python package
+-e .
